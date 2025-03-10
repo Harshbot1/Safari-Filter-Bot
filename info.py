@@ -57,7 +57,7 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://villainravangaming:mikey_kun_781_@cluster0.fbgs1zz.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mikey_kun_781_")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mikey_kun_781_')
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'sharedisklinks.com'))
